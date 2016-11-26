@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>myapp-application</artifactId>
-    <name>SimpleApp Application</name>
+    <name>Demo LJC2016 SimpleApp Application</name>
 
     <description>This defines the application (manifest) and runs application-level fixtures and integration (smoke) tests</description>
 
@@ -97,24 +97,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.isis.core</groupId>
-            <artifactId>isis-core-security-shiro</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.isis.core</groupId>
-            <artifactId>isis-core-integtestsupport</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.isis.core</groupId>
-            <artifactId>isis-core-specsupport</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
+            <groupId>com.danhaywood.mavendeps</groupId>
+            <artifactId>isistesting</artifactId>
+            <version>0.0.1</version>
+            <type>pom</type>
             <scope>test</scope>
         </dependency>
 

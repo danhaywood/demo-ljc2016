@@ -23,7 +23,7 @@
     <artifactId>myapp</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>SimpleApp Parent</name>
+    <name>Demo LJC2016 SimpleApp Parent</name>
 
     <packaging>pom</packaging>
 
